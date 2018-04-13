@@ -41,9 +41,10 @@ Sub CleanFolders()
     createLogDelete ("------------------------------------------------------------------")
     
     UserForm_Dogs.Show 'This is how the picture is displayed at the end of the whole clean-up-procedure.
-    
-    
+        
 End Sub
+
+'------------------------------------------------------------------------------------------------------    
 
 Sub DeleteEmailFromFolder(ByVal nameFile As String)
 
@@ -57,31 +58,32 @@ Sub DeleteEmailFromFolder(ByVal nameFile As String)
     Dim mySpace As String
     
     Set objNS = GetNamespace("MAPI")
-    Set objFolder = objNS.Folders("E.MAZARAKIS@wind.gr")    'Folders of your account
-    Set objFolder = objFolder.Folders(nameFile)             'Specified the folder
+    Set objFolder = objNS.Folders("yourName@outlook.gr")    'Folders of your account, Chane the yourName@outlook.gr with your account.
+    Set objFolder = objFolder.Folders(nameFile)             'Specified the folder.
     
     Set myItems = objFolder.Items                           'Returns an Items collection as a collection of Microsoft Outlook items in the specified folder.
-    howMany = myItems.count                                 'Count the number of e-mails in the specified folder
+    howMany = myItems.count                                 'Count the number of e-mails in the specified folder.
     'MsgBox (nameFile & " contains: " & CStr(howMany))
     mySpace = "                        "
     createLogDelete (mySpace & nameFile & " contains: " & CStr(howMany))
     createLogDelete ("..................................................................")
     
-    For i = howMany To 1 Step -1        ' For all the e-mails on the specified folder
+    For i = howMany To 1 Step -1        ' For all the e-mails on the specified folder.
         Set Msg = myItems.Item(i)
-        title = Msg.Subject
+        title = Msg.Subject             'Keep the subject's e-mail for the archive.
         createLogDelete (title & " " & CStr(i))
-        Msg.Delete      'Deleting the message
+        Msg.Delete     'Deleting the message
     Next
 
 End Sub
 
-
+'------------------------------------------------------------------------------------------------------         
+                              
 Sub createLogDelete(ByVal line As String)
 'Write a line  to a text file
 
     Dim logFile As String
-    logFile = "C:\Users\e.mazarakis\Desktop\LogDeleteMails.txt"   'It contains the path of the log File
+    logFile = "C:\Users\your.Name\Desktop\LogDeleteMails.txt"   'It contains the path of the log File.
     
     Open logFile For Append As #1
         'To do the actual writing to the file you need this:

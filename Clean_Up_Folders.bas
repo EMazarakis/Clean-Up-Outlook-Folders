@@ -2,45 +2,45 @@ Attribute VB_Name = "Clean_Up_Folders"
 
 Sub CleanFolders()
 
-    Dim LDate As String             'Declare the current Date
+    Dim LDate As String             'Declare the current Date.
     
     LDate = Date
     createLogDelete ("------------------------------------------------------------------")
     createLogDelete (LDate)
     createLogDelete ("------------------------------------------------------------------")
     
-    'Module5.DeleteEmailFromFolder ("Deleted Items")  'Clean Deleted Items folder
+    'Module5.DeleteEmailFromFolder ("Folder_Name")  'Clean Folder_Name folder    This is a vba comment.
     
-    'Module5.createLogDelete ("##################################################################")
+    'Module5.createLogDelete ("##################################################################")  This is a vba comment.
     
-    DeleteEmailFromFolder ("FMS")  'Clean FMS folder
-    
-    createLogDelete ("##################################################################")
-    
-    DeleteEmailFromFolder ("OpenView")  'Clean OpenView folder
-       
-    createLogDelete ("##################################################################")
-       
-    DeleteEmailFromFolder ("RUBBISH")  'Clean RUBBISH folder
-       
-    createLogDelete ("##################################################################")
-       
-    DeleteEmailFromFolder ("SERV.REQUESTS") 'Clean SERV.REQUESTS folder
+    DeleteEmailFromFolder ("Folder_Name_1")  'Clean Folder_Name_1 folder.
     
     createLogDelete ("##################################################################")
     
-    DeleteEmailFromFolder ("test")  'Clean test folder
+    DeleteEmailFromFolder ("Folder_Name_2")  'Clean Folder_Name_2 folder.
+       
+    createLogDelete ("##################################################################")
+       
+    DeleteEmailFromFolder ("Folder_Name_3")  'Clean Folder_Name_3 folder.
+       
+    createLogDelete ("##################################################################")
+       
+    DeleteEmailFromFolder ("Folder_Name_4") 'Clean Folder_Name_4 folder.
+    
+    createLogDelete ("##################################################################")
+    
+    DeleteEmailFromFolder ("Folder_Name_5")  'Clean Folder_Name_5 folder.
     
     createLogDelete ("##################################################################")
 
-    DeleteEmailFromFolder ("test1") 'Clean test1 folder
+    DeleteEmailFromFolder ("Folder_Name_6") 'Clean Folder_Name_6 folder.
     
-    'MsgBox ("All folders have been cleaned up.")
+    'MsgBox ("All folders have been cleaned up.")  A pop up window with a message.
     
     createLogDelete ("------------------------------------------------------------------")
     createLogDelete ("------------------------------------------------------------------")
     
-    UserForm_Dogs.Show 'This is how the picture is displayed
+    UserForm_Dogs.Show 'This is how the picture is displayed at the end of the whole clean-up-procedure.
     
     
 End Sub

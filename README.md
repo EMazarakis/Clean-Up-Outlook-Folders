@@ -11,3 +11,9 @@ Step 2: From the Menu choose the Options.
 
 ![options](https://user-images.githubusercontent.com/32977750/38723053-93beaa18-3f08-11e8-9263-729195743387.JPG)
 
+
+Step 3:
+Step 4:
+Step 5:
+
+![how to set up the macro](https://user-images.githubusercontent.com/32977750/38723350-7538977e-3f09-11e8-8094-a04a2a337a0e.JPG)

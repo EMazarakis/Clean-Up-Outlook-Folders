@@ -40,7 +40,8 @@ Sub CleanFolders()
     createLogDelete ("------------------------------------------------------------------")
     createLogDelete ("------------------------------------------------------------------")
     
-    UserForm_Dogs.Show 'This is how the picture is displayed at the end of the whole clean-up-procedure.
+    'UserForm_Dogs.Show 'This is how the picture is displayed at the end of the whole clean-up-procedure.
+    UserForm_Rothko.Show 'It displays a picture at the end of the procedure.
         
 End Sub
 

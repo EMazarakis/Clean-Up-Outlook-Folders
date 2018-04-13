@@ -11,7 +11,11 @@ B) Sub DeleteEmailFromFolder(ByVal nameFile As String): Searching the e-mail acc
 folder "nameFile". Then it's writing every e-mail's subject to a log file (it uses the  createLogDelete routine) and 
 then deleting every message of the folder
 
-C) Sub createLogDelete(ByVal line As String): Create a log file and write the e-mail's subject into it.
+C) Sub createLogDelete(ByVal line As String): Create a log file and write the e-mail's subject into it. 
+ 
+  
+   
+   
 
 
 Step 1:     Go to the ribbon, at the File tab.

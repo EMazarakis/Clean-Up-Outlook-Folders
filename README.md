@@ -7,10 +7,11 @@ At the Clean_Up_Folders.bas file there are 3 sub-routines.
 A) Sub CleanFolders(): This is the subroutine which is called when you push the button from the Outlook's ribbon.
 It also calls the following 2 sub-routines. 
 
-B) Sub DeleteEmailFromFolder(ByVal nameFile As String): Searching the e-mail account in order to find the specified folder "nameFile".
-Then it's writing every e-mail's subject to a log file (it uses the  ) and then deleting every message of the folder.
+B) Sub DeleteEmailFromFolder(ByVal nameFile As String): Searching the e-mail account in order to find the specified 
+folder "nameFile". Then it's writing every e-mail's subject to a log file (it uses the  createLogDelete routine) and 
+then deleting every message of the folder
 
-C)
+C) Sub createLogDelete(ByVal line As String): Create a log file and write the e-mail's subject into it.
 
 
 Step 1:     Go to the ribbon, at the File tab.

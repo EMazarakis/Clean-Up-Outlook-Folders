@@ -8,8 +8,9 @@ A) Sub CleanFolders(): This is the subroutine which is called when you push the 
 It also calls the following 2 sub-routines. 
 
 B) Sub DeleteEmailFromFolder(ByVal nameFile As String): Searching the e-mail account in order to find the specified folder "nameFile".
-Then it's deleting every message of the folder.
+Then it's writing every e-mail's subject to a log file (it uses the  ) and then deleting every message of the folder.
 
+C)
 
 
 Step 1:     Go to the ribbon, at the File tab.

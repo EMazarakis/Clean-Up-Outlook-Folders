@@ -5,7 +5,8 @@ At the Clean_Up_Folders.bas file there are 3 sub-routines.
 
 
 A) Sub CleanFolders(): This is the subroutine which is called when you push the button from the Outlook's ribbon.
-It also calls the following 2 sub-routines. 
+It also calls the following 2 sub-routines. At the end through a user form displays a Mark Rothko painting. 
+
 
 B) Sub DeleteEmailFromFolder(ByVal nameFile As String): Searching the e-mail account in order to find the specified 
 folder "nameFile". Then it's writing every e-mail's subject to a log file (it uses the  createLogDelete routine) and 

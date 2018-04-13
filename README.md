@@ -14,9 +14,8 @@ then deleting every message of the folder
 C) Sub createLogDelete(ByVal line As String): Create a log file and write the e-mail's subject into it. 
  
   
-   
-   
-
+SET UP THE MACRO AT THE RIBBON 
+------------------------------
 
 Step 1:     Go to the ribbon, at the File tab.
 

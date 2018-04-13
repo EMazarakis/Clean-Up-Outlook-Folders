@@ -13,9 +13,13 @@ Step 2:     From the Menu choose the Options.
 
 
 Step 3.1:   Choose the Customize Ribbon from the Menu.
+
 Step 3.2:   From the (Choose commands from) list choose Macros.
+
 Step 3.3.A: Go to the Main tabs and add a New group. 
+
 Step 4:     Add the Macro you want to the Group.
+
 Step 5:     You can rename both Group & Macro. 
 
 ![how to set up the macro](https://user-images.githubusercontent.com/32977750/38723350-7538977e-3f09-11e8-8094-a04a2a337a0e.JPG)

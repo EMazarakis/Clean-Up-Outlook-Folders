@@ -4,7 +4,10 @@ VBA code in order to push a button from the Home tab of Microsoft OutLook and cl
 At the Clean_Up_Folders.bas file there are 3 sub-routines. 
 
 
-A) Sub CleanFolders(): This is the subroutine which is called when you push the button from the Outlook's ribbon. 
+A) Sub CleanFolders(): This is the subroutine which is called when you push the button from the Outlook's ribbon.
+It also calls the following 2 sub-routines. 
+
+B)
 
 
 

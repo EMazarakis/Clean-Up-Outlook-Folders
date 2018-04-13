@@ -1,11 +1,14 @@
 # Clean-Up-Outlook-Folders
 VBA code in order to push a button from the Home tab of Microsoft OutLook and clean up some folders.
 
+At the .bas file there are 3 sub-routines.
+
+A) Sub CleanFolders(): This is the subroutine which is called when you push the button from the ribbon.
+
+
 Step 1:     Go to the ribbon, at the File tab.
 
 ![outlook_tab1](https://user-images.githubusercontent.com/32977750/38721816-47e7f0f8-3f04-11e8-921b-b98208d89226.JPG)
-
-
 
 Step 2:     From the Menu choose the Options.
 
